@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.subWrapper{
+    width: 90%;
+    margin: auto;
+}
+
+/*Nav section*/
+nav{
+    background-color: rgb(255, 255, 255);
+}
+nav .navBar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+.signbutton button{
+    padding: 6px 40px 6px 40px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+}
+.logo span{
+    margin-top: 5%;
+}
+.NavWords ul{
+    display: flex;
+    width: 200%;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 2.1%;
+    color: black;
+}
+.NavWords ul li{
+    color: black;
+}
+
+/*Hero sesion*/
+.sectionWrapper{
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.TheWriteUp h4{
+    font-family: 'Cairo';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93px;
+    width: 556px;
+    height: 186px;
+    top: 256px;
+    left: 94px;
+}
+.TheWriteUp p{
+    width: 428px;
+    height: 36px;
+    top: 475px;
+    left: 94px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35.61px;
+
+}
+
+.buttons {
+display: flex;
+}
+
+.buttons button{
+margin-right: 10%;
+    width: 143px;
+    height: 44px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: rgba(41, 149, 226, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29.98px;
+    
+}
+
+.buttons .box{
+    border: 1px solid black;
+    width: 143px;
+    padding-right: 50px;
+}
+
+
+.playButton{
+    display: flex;
+    width: 180px;
+    justify-content: space-around;
+}

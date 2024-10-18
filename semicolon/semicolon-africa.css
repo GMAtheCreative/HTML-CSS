@@ -66,6 +66,7 @@ img{
     padding: 10px 25px;
     display: block;
     font-weight: 600px;
+    font-family: ;
 }
 .Navigationbar .menu ul li a{
     transition:  0.3s ease;
@@ -247,6 +248,23 @@ img{
     
 }
 
+.button{
+    display: flex;
+    border: 1px solid peachpuff;
+    width: 455px;
+    height: 56px;
+    border-radius: 30px;
+}
+
+input{
+    width: 85%;
+}
+
+.btn {
+    justify-content: flex-end;
+    border-radius: 30px;
+    width: 15%;
+}
 
 
   
