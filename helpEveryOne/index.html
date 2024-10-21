@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="mainWrapper">
-        <div class="subWrapper">
-            <nav>
-                <div class="navBar">
+    <div class="mainCanvas">
+        <div class="subCanvas">
+            <div class="line"></div>
+            <div class="wrapper">
+                <nav class="navBar">
                     <div class="logo">
-                        <img src="utility/happyemoji.png" alt="happyemoji">
-                        <span>Helpeveryone</span>
+                        <img src="utility/happyemoji.png" alt="logo">
+                        <span class="HelpEveryOne">HelpEveryOne</span>
                     </div>
-                    <div class="NavWords">
+                    <div class="navWords">
                         <ul>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Donate</a></li>
@@ -33,161 +32,144 @@
                     <div class="signbutton">
                         <button class="signUp">Sign up</button>
                     </div>
-                </div>
-            </nav>
-            <section>
-                <div class="HeroSection">
+                </nav>
+                <section class="HeroSection">
                     <div class="sectionWrapper">
+                        <div class="thewriteup">
                         <div class="content">
-                            <div class="TheWriteUp">
-                                <div class="wehelp">
-                                    <h4>
-                                        We 
-                                        <span style="color: rgba(41, 149,226,1)">Help</span> 
-                                        Everyone Here For A 
-                                        <span style="color:  rgba(41, 149,226,1);">Better Life</span>
-                                    </h4>
+                            <h4>
+                                We
+                                <span style="color: rgba(41, 149,226,1)">Help</span>
+                                Everyone Here For A
+                                <span style="color:  rgba(41, 149,226,1);">Better Life</span>
+                            </h4>
                                 </div>
-                                <div class="likeToHelp">
-                                    <p>
-                                        If you are someone who like to help other, get started
-                                    </p>
-                                </div>
-                                <div class="theButtons">
-                                    <div class="getstartedcontainer">
-                                        <button class="getstarted">
-                                            <div class="innerclass">
-                                                <span>Get Started</span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                    <div class="watchOurstory">
-                                        <span>
-                                            Watch our story
-                                        </span>
-                                        <img src="utility/playButton.png" alt="play Button">
-                                    </div>
-                                </div>
+                            <div class="likeToHelp">
+                                <p>
+                                    If you are someone who like to help other, get started
+                                </p>
                             </div>
-                            <img src="utility/Group 16.png" alt="hamony">
+                            <div class="theButtons">
+                            <button class="getstarted">
+                                <div class="innerclass">
+                                    <div class="writingDiv">
+                                        <span>Get Started</span>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="watchOurstory">
+                                <span>
+                                    Watch our story
+                                </span>
+                                <img src="utility/playButton.png" alt="play Button">
+                            </div>
                         </div>
+                        </div>
+                        <img id="couple" src="utility/Group 16.png" alt="hamony">
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="aboutUs">
-                    <div class="section2Wrapper">
+                </section>
+                <section class="secondSection">
+                    <div class="aboutUs">
                         <div class="aboutUsContent">
                             <div class="header">
                                 <img src="utility/SUN & CLOUDS.png" alt="sun and cloud">
                                 <span>About us</span>
                             </div>
-                            <div class="writeup">
+                            <div class="theWriteUp">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur. 
+                                    Lorem ipsum dolor sit amet consectetur.
                                     Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
-                                    Ullamcorper sit amet neque tellus libero sem dui tristique. 
+                                    Ullamcorper sit amet neque tellus libero sem dui tristique.
                                     Ac quam penatibus velit at ipsum aliquet tortor.
                                 </p>
                             </div>
                             <img id="tent" src="utility/TENTS.png" alt="tent">
                         </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="ourservices">
-                    <div class="section3wrapper">
-                        <div class="ourserviceContent">
-                            <div class="title">
-                                <div class="ourservice">Our Service</div>
-                                <div class="someOfOur">Some of the service include the following:</div>
-                            </div>
-                            <div class="subsession1">
-                                <div class="gurdianship">
-                                    <div class="gurdianshipTitle">
-                                        <span>1-Gurdianship Of Children Without Families</span>
-                                    </div>
-                                    <div class="gurdianshipWriteup">
-                                        <span>Lorem ipsum dolor sit amet consectetur. 
-                                            Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
-                                            Ullamcorper sit amet neque tellus libero sem dui tristique. 
-                                            Ac quam penatibus velit at ipsum aliquet tortor.
-                                        </span>
-                                    </div>
-                                    <div class="gurdianshipButton">
-                                        <div class="gurdianshipButtonContainer">
-                                            <button class="aboutThis">
-                                                <div class="aboutThis-innerclass">
-                                                    <span class="aboutThisText">About This</span>
-                                                </div>
-                                            </button>
+                </section>
+                <section class="ourServicesSection">
+                    <div class="ourServiceContent">
+                        <div class="title">
+                            <div class="ourservice">Our Service</div>
+                            <div class="someOfOur">Some of the service include the following:</div>
+                        </div>
+                        <div class="subsection1">
+                            <div class="gurdianship">
+                                <div class="gurdianshiptitle">
+                                    <span>1-Gurdianship Of Children Without Families</span>
+                                </div>
+                                <div class="gurdianshipWriteup">
+                                    <span>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                        Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
+                                        Ullamcorper sit amet neque tellus libero sem dui tristique.
+                                        Ac quam penatibus velit at ipsum aliquet tortor.
+                                    </span>
+                                </div>
+                                <button class="AboutThis">
+                                    <div class="AboutThis-innerclass">
+                                        <div class="AboutThis-writingDiv">
+                                            <span>About This</span>
                                         </div>
                                     </div>
-                                </div>
-                                <img id="helpingHand" src="utility/about this.png" alt="adult helping child">
+                                </button>
                             </div>
-                            <div class="subsession2">
-                                <div class="helpingelderscontent">
-                                    <img src="utility/helping helders.png" alt="helping helders">
-                                    <div class="helpingthehelder-container">
-                                        <div class="helpingthehelder">
-                                            <div class="title">
-                                                <span>2-Helping The Elderly</span>
-                                            </div>
-                                            <div class="theContent">
-                                                <span>
-                                                    Lorem ipsum dolor sit amet consectetur. 
-                                                    Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
-                                                    Ullamcorper sit amet neque tellus libero sem dui tristique. 
-                                                    Ac quam penatibus velit at ipsum aliquet tortor.
-                                                </span>
-                                            </div>
-                                            <div class="gurdianshipButtonContainer">
-                                                <button class="aboutThis">
-                                                    <div class="aboutThis-innerclass">
-                                                        <span class="aboutThisText">About This</span>
-                                                    </div>
-                                                </button>
-                                            </div>
+                            <img id="helpingHand" src="utility/about this.png" alt="adult helping child">
+                        </div>
+                        <div class="subsection2">
+                            <img src="utility/helping helders.png" alt="helping helders">
+                            <div class="helpingtheelder">
+                                <div class="helpingtheelder-title">
+                                    <span>2-Helping The Elderly</span>
+                                </div>
+                                <div class="theContent">
+                                    <span>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                        Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
+                                        Ullamcorper sit amet neque tellus libero sem dui tristique.
+                                        Ac quam penatibus velit at ipsum aliquet tortor.
+                                    </span>
+                                </div>
+                                <button class="AboutThis">
+                                    <div class="AboutThis-innerclass">
+                                        <div class="AboutThis-writingDiv">
+                                            <span>About This</span>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="subsession1">
-                                <div class="gurdianship">
-                                    <div class="gurdianshipTitle">
-                                        <span>3-Buying Food And Clothes</span>
-                                    </div>
-                                    <div class="gurdianshipWriteup">
-                                        <span>
-                                            Lorem ipsum dolor sit amet consectetur.
-                                            Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
-                                            Ullamcorper sit amet neque tellus libero sem dui tristique.
-                                            Ac quam penatibus velit at ipsum aliquet tortor.
-                                        </span>
-                                    </div>
-                                        <div class="gurdianshipButton">
-                                            <div class="gurdianshipButtonContainer">
-                                                <button class="aboutThis">
-                                                    <div class="aboutThis-innerclass">
-                                                        <span class="aboutThisText">About This</span>
-                                                    </div>
-                                                </button>
-                                            </div>
-                                        </div>
-                                </div>
-                                <img id="helpingHand" src="utility/buying food and cloth.png" alt="adult helping child">
+                                </button>
                             </div>
                         </div>
+                        <div class="subsection3">
+                            <div class="foodAndClothes">
+                                <div class="foodAndClothes-title">
+                                    <span>
+                                        3-Buying Food And Clothes
+                                    </span>
+                                </div>
+                                <div class="foodAndClothes-writeup">
+                                    <span>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                        Id ullamcorper iaculis laoreet egestas velit phasellus euismod aliquam.
+                                        Ullamcorper sit amet neque tellus libero sem dui tristique.
+                                        Ac quam penatibus velit at ipsum aliquet tortor.
+                                    </span>
+                                </div>
+                                <button class="AboutThis">
+                                    <div class="AboutThis-innerclass">
+                                        <div class="AboutThis-writingDiv">
+                                            <span>About This</span>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <img id="helpingHand" src="utility/buying food and cloth.png" alt="adult helping child">
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="section3">
+                </section>
+                <section class="theBlueBox">
                     <div class="bluebox">
                         <img src="utility/house.png" alt="house">
-                        <div class="writeup">
+                        <div class="bluebox-writeup">
                             <span class="do-you">Do You Want To Have Special Help</span>
                             <div class="GetIntouch-div">
                                 <button class="GetIntouch-button">
@@ -198,8 +180,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
 </body>
+</html>

@@ -5,36 +5,60 @@
     font-family: 'Cairo', sans-serif;
 }
 
-.subWrapper {
-    width: 90%;
+.mainCanvas{
+    width: 1440px;
+    height: 4349px;
+    top: -334px;
     margin: auto;
-    background-color: rgb(245,245,245);
+    background-color: rgba(245,245,245,1);
 }
-
+.subCanvas{
+    position: relative;
+    border: 1px solid rgba(201,201,201,1);
+    width: 1318px;
+    height: 4349px;
+    margin: auto;
+    border-top: none;
+    border-bottom: none;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    border-bottom: none;
+    border-top: none;
+    width: 1258px;
+    margin: auto;
+    height: 4349px;
+}
+.line{
+    position: absolute;
+    width: 1318px;
+    border: 1px solid rgba(201,201,201,1);
+    margin-right: 50px;
+    top: 99px;
+}
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
 
-/*Nav section*/
-nav {
-    background-color: #f5f5f5;
-}
-
-nav .navBar {
+/* nav Section */
+.navBar {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 20px;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    /* background-color: aquamarine; */
 }
-
 .logo {
     display: flex;
 }
-
+.logo img {
+    width: 33px;
+    height: 33px;
+}
 .logo span {
     width: 96px;
     height: 30px;
@@ -43,58 +67,45 @@ nav .navBar {
     line-height: 29.98px;
     color: rgba(41, 149, 226, 1);
 }
-
-.logo img{
-    width: 33px;
-    height: 33px;
-}
-
-.NavWords ul {
+.navWords ul {
     display: flex;
     width: 200%;
     justify-content: space-between;
-    margin-right: 10%;
-    margin-top: 2.1%;
+    margin-right: 100%;
 }
-
-.NavWords ul a{
-    color: black;
-    width: 68px;
+.navWords ul a {
+    color: rgba(63,63,63,1);
+    width: 47px;
     height: 28px;
     font-weight: 600;
     font-size: 15px;
     line-height: 28.11px;
 }
-
 .signbutton button {
-    width: fixed(130px);
-    height: fixed(44px);
-    border: 1px solid rgba(142,142,142,1);
+    width: 130px;
+    height: 44px;
+    border: 1px solid rgba(142, 142, 142, 1);
     background-color: white;
-    color: black;
+    color: rgba(63, 63, 63, 1);;
     padding: 7px 30px 7px 30px;
     font-size: 16px;
     line-height: 29.98px;
     font-weight: 600px;
 }
 
-/*Hero sesion*/
+/* Hero section */
 .HeroSection{
+    /* background-color: blue; */
     margin-top: 90px;
 }
-.sectionWrapper {
-    width: 97%;
-    margin: auto;
-}
-.content{
+.sectionWrapper{
     display: flex;
     justify-content: space-between;
 }
-.TheWriteUp{
+.content{
     margin-top: 60px;
 }
-
-.TheWriteUp h4{
+.content h4{
     width: 556px;
     height: 186px;
     top: 256px;
@@ -103,22 +114,17 @@ nav .navBar {
     font-size: 60px;
     line-height: 93px;
 }
-
-.likeToHelp{
-    margin-top: 8%;
-}
-
 .likeToHelp p{
     width: 428px;
-    height: 36px;
-    top: 475px;
-    left: 94px;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 50.61px;
-    color: rgba(63, 63, 63, 1);
+        height: 36px;
+        top: 475px;
+        left: 94px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 35.61px;
+        color: rgba(63, 63, 63, 1);
 }
-.theButtons{
+.theButtons {
     width: 374px;
     height: 51px;
     top: 560px;
@@ -127,15 +133,13 @@ nav .navBar {
     margin-top: 12%;
     display: flex;
 }
-
 .getstarted {
     border: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(245, 245, 245, 1);
     position: relative;
     width: 149px;
     height: 51px;
 }
-
 .getstarted .innerclass {
     background-color: rgb(255, 255, 255);
     width: 143px;
@@ -145,181 +149,9 @@ nav .navBar {
     left: 6px;
     height: 44px;
     gap: 10px;
-    border: 1px solid rgba(78,78,78,1);
-}
-
-.innerclass span{
-    background-color: rgba(41,149,226,1);
-    position: absolute;
-    bottom: 6px;
-    right: 7px;
-    width: 143px;
-    height: 44px;
-    border: none;
-    line-height: 40.98px;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-}
-
-.watchOurstory{
-    display: flex;
-    width: ;
-}
-
-.watchOurstory span {
-    width: 129px;
-    height:36px;
-    font-weight: 600;
-    size: 19px;
-    line-height: 40.61px;
-}
-
-.watchOurstory img{
-    width: 32px;
-    height: 32px;
-    margin-top: 6px;
-    gap: 10px;
-}
-
-/* About us session */
-
-.aboutUs {
-    margin-top: 70px;
-}
-
-.aboutUsContent{
-    position: relative;
-}
-
-.section2Wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutUsContent .header{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 30px;
-    margin-right: 10px;
-}
-
-.aboutUsContent span{
-    width: 174px;
-    height: 82px;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 82.46px;
-    color: rgba(63, 63, 63, 1));
-}
-
-.writeup p {
-    text-align: center;
-    font-size: 19px;
-    line-height: 35.61px;
-    font-weight: 600;
-    color: rgba(79, 79, 79, 1);
-    width: 819px;
-    height: 108px;
-    margin: auto;
-}
-
-.aboutUsContent #tent{
-    position: absolute;
-    width: 160px;
-    height: 97px;
-    left: 60%;
-}
-
-/* secsion3 */
-.ourservices{
-    margin-top: 120px;
-}
-
-.title{
-    width: 343px;
-    height: 111px;
-    left: 91px;
-}
-
-.ourservice{
-    color: rgba(41,149,226,1);
-    width: 217px;
-    height: 75px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 74.96px;
-}
-
-.someOfOur{
-    width: 343px;
-    height: 36px;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 35.61px;
-    color: rgba(79,79,79,1);
-}
-
-.subsession1{
-    display: flex;
-    margin-top: 7%;
-    justify-content: space-between;
-    width: 70%;
-}
-
-.gurdianship{
-    margin-top: 6%;
-    width: 525px;
-    height: 319px;
-    left: 91px;
-    gap: 42px;
-}
-
-.gurdianshipTitle span{
-    width: 525px;
-    height: 52px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 52.47px;
-    color: rgba(63,63,63,1);
-}
-
-.gurdianshipWriteup span{
-    width: 493px;
-    height: 144px;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 35.61px;
-    color: rgba(79, 79, 79, 1);
-}
-
-.gurdianshipButton{
-    margin-top: 11%;
-}
-
-.aboutThis{
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    height: 51px;
-    width: 149px;
-    border: none;
-}
-.aboutThis-innerclass{
-    position: absolute;
-    top: 7px;
-    left: 6px;
-    height: 44px;
-    gap: 10px;
     border: 1px solid rgba(78, 78, 78, 1);
-    background-color: rgb(255, 255, 255);
-    width: 143px;
-    height: 44px;
 }
-.aboutThisText{
-    position: absolute;
+.innerclass .writingDiv {
     background-color: rgba(41, 149, 226, 1);
     position: absolute;
     bottom: 6px;
@@ -332,51 +164,251 @@ nav .navBar {
     font-weight: 600;
     color: white;
 }
-.subsession1 img{
-    width: 722px;
-    height: 426px;
+.writingDiv span{
+    width: 78px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29.98px;
 }
-
-.subsession2{
-    margin-top: 5%;
-}
-
-.helpingelderscontent{
-    width: 72%;
+.watchOurstory {
     display: flex;
-    justify-content: space-between;
+    width: 179px;
+    height: 36px;
+    gap: 18px;
+}
+.watchOurstory span {
+    width: 129px;
+    height: 36px;
+    font-weight: 600;
+    size: 19px;
+    line-height: 35.61px;
+}
+.watchOurstory img {
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+    gap: 10px;
+}
+.sectionWrapper #couple{
+    width: 577px;
+    height: 467px;
 }
 
-.helpingthehelder{
-    width: 493px;
-    height: 313px;
-    margin-top: 29%;
+/* About Us Section  */
+.secondSection{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    position: relative;
+}
+.aboutUs{
+    /* background-color: rgb(45, 97, 97); */
+    width: 819px;
+}
+.aboutUsContent{
+    width: 819px;
+    height: 198px;
+    gap: 8px;
+}
+.aboutUsContent .header{
+    display: flex;
+    gap: 30px;
+}
+.aboutUsContent .header img{
+    width: 232px;
+    height: 85px;
+    left: 367px;
+}
+.aboutUsContent .header span{
+    width: 174px;
+    height: 82px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 82.46px;
+    color: rgba(63,63,63,1);
+    text-align: center;
+}
+.aboutUsContent #tent {
+    position: absolute;
+    width: 160px;
+    height: 97px;
+    left: 60%;
+}
+.theWriteUp p{
+        text-align: center;
+        font-size: 19px;
+        line-height: 35.61px;
+        font-weight: 600;
+        color: rgba(79, 79, 79, 1);
+        width: 819px;
+        height: 108px;
+        margin: auto;
 }
 
-.helpingthehelder .title span{
-    width: 261px;
+
+/* Our service secion  */
+.ourServicesSection{
+    margin-top: 120px;
+    /* background-color: blueviolet; */
+}
+.ourServiceContent .title{
+    width: 343px;
+    height: 111px;
+
+}
+.ourServiceContent .title .ourservice{
+    color: rgba(41,149,226,1);
+    width: 217px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 74.96px;
+}
+.ourServiceContent .title .someOfOur{
+    width: 343px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: rgba(79,79,79,1);
+}
+.subsection1{
+    display: flex;
+}
+.gurdianship {
+    /* background-color: brown; */
+    margin-top: 5%;
+    width: 525px;
+    height: 319px;
+    /* left: 91px; */
+    /* gap: 42px; */
+}
+.gurdianshiptitle span {
+    width: 525px;
     height: 52px;
     font-weight: 700;
     font-size: 28px;
     line-height: 52.47px;
     color: rgba(63, 63, 63, 1);
 }
-
-.helpingthehelder .theContent span{
+.gurdianshipWriteup span {
     width: 493px;
     height: 144px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: rgba(79, 79, 79, 1);
+}
+.AboutThis {
+    margin-top: 5%;
+    border: none;
+    background-color: rgba(245, 245, 245, 1);
+    position: relative;
+    width: 181.14px;
+    height: 62px;
+}
+
+.AboutThis .AboutThis-innerclass {
+    background-color: rgb(255, 255, 255);
+    width: 173.84px;
+    height: 53.49px;
+    position: absolute;
+    top: 8.51px;
+    left: 7.29px;
+    height: 44px;
+    gap: 12.16px;
+    border: 1.22px solid rgba(78, 78, 78, 1);
+}
+
+.AboutThis-innerclass .AboutThis-writingDiv {
+    background-color: rgba(41, 149, 226, 1);
+    position: absolute;
+    bottom: 6px;
+    right: 7px;
+    width: 173.84px;
+    height: 53.49px;
+    border: none;
+    line-height: 40.98px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.AboutThis-writingDiv span {
+    width: 78px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29.98px;
+}
+
+
+.subsection2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.subsection2 .helpingtheelder{
+    width: 493px;
+    height: 313px;
+    margin-top: 10%;
+}
+.subsection2 .helpingtheelder .helpingtheelder-title{
+    color: rgba(63, 63, 63, 1);
+    width: 261px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52.47px;
+}
+.subsection2 .helpingtheelder .theContent{
+    width: 493px;
+    height: 144px;
+    font-weight: 500;
     font-size: 19px;
     line-height: 35.61px;
 }
+.subsection3{
+    /* background-color: aqua; */
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.subsection3 .foodAndClothes{
+    margin-top: 8%;
+    width: 493px;
+    height: 320px;
+    
+}
+.subsection3 .foodAndClothes .foodAndClothes-title{
+    width: 328px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52.47px;
+    color: rgba(63,63,63,1);
+}
+.subsection3 .foodAndClothes .foodAndClothes-writeup{
+    width: 493px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: rgba(79, 79, 79, 1));
+}
 
-.section3{
+/* The blue box  */
+.theBlueBox {
     margin-top: 9%;
     position: relative;
     justify-content: center;
     align-items: center;
     display: flex;
 }
-
 .bluebox {
     justify-content: center;
     display: flex;
@@ -388,21 +420,20 @@ nav .navBar {
     left: 146px;
     background-color: rgba(41, 149, 226, 1);
 }
-
-.bluebox img{
+.bluebox img {
     width: 457px;
     height: 313px;
     position: absolute;
     margin-right: 35%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
-.writeup {
+.bluebox .bluebox-writeup {
     width: 286px;
     height: 209px;
     margin-top: 5%;
     margin-left: 50%;
 }
-.do-you{
+.do-you {
     width: 286px;
     height: 132px;
     font-weight: 700;
@@ -410,31 +441,30 @@ nav .navBar {
     line-height: 65.59px;
     color: white;
 }
-
-.GetIntouch-button{
+.GetIntouch-button {
     position: relative;
     background-color: rgba(41, 149, 226, 1);
     width: 172.37px;
     height: 59px;
     border: none;
 }
-.GetIntouch-innerclass{
+.GetIntouch-innerclass {
     position: absolute;
     width: 165.43px;
     height: 50.9px;
     top: 8.1px;
     left: 6.94px;
     gap: 10px;
-    border: 1.16px solid rgba(78,78,78,1);
-    background-color: rgba(41,149,226,1);
+    border: 1.16px solid rgba(78, 78, 78, 1);
+    background-color: rgba(41, 149, 226, 1);
 }
-.GetIntouch{
+.GetIntouch {
     position: absolute;
     width: 165.43px;
     height: 50.9px;
     bottom: 6px;
-    background-color: rgba(255,255,255,1);
-    color: rgba(49,49,49,1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(49, 49, 49, 1);
     line-height: 45.69px;
     font-size: 18.51px;
     font-weight: 600;
