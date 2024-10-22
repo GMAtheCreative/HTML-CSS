@@ -470,3 +470,227 @@ ul {
     font-weight: 600;
     right: 7px;
 }
+
+
+/* The Form Section  */
+.formsession{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formsession .mainBox{
+    width: 1179px;
+    height: 614px;
+    border: 1px solid rgba(41, 149, 226, 1);
+}
+.formsession .mainBox .subBox{
+    position: relative;
+    /* background-color: rgb(0, 255, 21); */
+    margin-left: 3.4%;
+    margin-top: 3.4%;
+    width: 1098px;
+    height: 531px;
+    /* border: 1px solid rgba(41, 149, 226, 1); */
+}
+.subBox .boxheader{
+    width: 552px;
+    height: 94px;
+    gap: 11px;
+}
+.subBox .boxheader .boxheader-Title span{
+    width: 306px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46.85px;
+    color: rgba(63,63,63,1);
+}
+.subBox .boxheader .boxheader-Writup span{
+    width: 552px;
+    height: 36px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    color: rgba(79, 79, 79, 1));
+}
+.theforms{
+    width: 1098px;
+    height: 405px;
+    gap: 57px;
+}
+.theforms .formline1{
+    /* background-color: aqua; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 1098px;
+    height: 113px;
+    gap: 38px;
+}
+.theforms .formline1 .fullname-form1{
+    width: 530px;
+    height: 113px;
+    gap: 16px;
+}
+.theforms .formline1 .fullname-form1 span{
+    width: 71px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 31.86px;
+}
+.theforms .formline1 .fullname-form1 input{
+    width: 530px;
+    height: 65px;
+    border: 1px solid rgba(153,153,153,1);
+    padding: 17px;
+    gap: 10px;
+}
+.theforms .formline1 .email-form1{
+    width: 530px;
+    height: 113px;
+    gap: 16px;
+}
+.theforms .formline1 .email-form1 span{
+    width: 71px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 31.86px;
+}
+.theforms .formline1 .email-form1 input{
+    width: 530px;
+    height: 65px;
+    border: 1px solid rgba(153,153,153,1);
+    padding: 17px;
+    gap: 10px;
+}
+.formsession .mainBox .subBox button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 65px;
+    color: white;
+    background-color: rgba(41, 149, 226, 1);
+    border: 1px solid rgba(153, 153, 153, 1);   
+}
+.newline{
+    transform: translateX(-4.8%);
+    position: absolute;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    width: 1318px;
+        height: 0px;
+    margin-top: 10%;
+        left: 62px;
+
+        border: 1px solid rgba(201, 201, 201, 1)
+}
+
+.lastSection{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    width: 1178px;
+    height: 7%;
+    margin-top: 15%;
+        top: 4255px;
+    margin-left: 40px;
+        border: 1px solid rgba(201, 201, 201, 1);
+border-top: none;
+border-right: none;
+border-left: none;
+
+}
+.contains{
+    display: flex;
+    justify-content: space-between;
+    width: 565px;
+    height: 218px;
+    gap: 102px;
+}
+.firstcontains{
+    width: 193.94px;
+    height: 133px;
+    gap: 15px;
+}
+.firstcontains .buttom{
+    display: flex;
+    width: 193.94px;
+    height: 46px;
+    gap: 13.94px;
+}
+.firstcontains .buttom img{
+    width: 46px;
+    height: 46px;
+}
+.firstcontains .buttom .weHelpEveryOne{
+    width: 134px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 22.3px;
+    line-height: 41.8px;
+    color: rgba(41, 149, 226, 1);
+}
+.firstcontains div{
+width: 176px;
+    height: 72px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+color: rgba(36, 36, 36, 1);
+}
+.contains span{
+    width: 59px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29.98px;
+    text-align: left;
+color: rgba(63, 63, 63, 1);
+}
+.newwrapper{
+display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.copywritsection{
+margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1179px;
+    height: 30px;
+
+}
+.copywritsection .copyright{
+    width: 382px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.98px;
+    text-align: left;
+color: rgba(135, 135, 135, 1);
+}
+.copywritsection .cookie{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.98px;
+    text-align: left;
+color: rgba(135, 135, 135, 1);
+}
+.copywritsection .cookie .accept{
+    width: 300px;
+        font-size: 16px;
+        font-weight: 700;
+        font-size: 16px;
+        color: rgba(41, 149, 226, 1)
+}
