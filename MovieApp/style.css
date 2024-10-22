@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+.nabarWrapper{
+    background-color: rgb(143, 164, 221);
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.navBar ul{
+    display: flex;
+
+}
+#serch{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+}
+.search{
+    width: 400px;
+    margin: auto;
+}
+.imageWrapper{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images img{
+    width: 450px;
+    height: 600px;
+}
