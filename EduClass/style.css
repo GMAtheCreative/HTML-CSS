@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+UL{
+    list-style: none;
+}
+.mainWrapper{
+    background: rgba(249, 250, 251, 1);
+}
+.subWrapper{
+    width: 1440px;
+    height: 5495px;
+    left: 4739px;
+    background: rgba(249, 250, 251, 1);
+    margin: auto;
+    
+}
+
+/* the nav bar hero section  */
+.HeroSection{
+    background-image: url(utility/Hero\ Background.png);
+    width: 1440px;
+    height: 710px;
+    position: relative;
+}
+.HeroSection .navBar .navBarWrapper{
+    padding-top: 70px;
+    padding-bottom: 55px;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    width: 85%;
+    height: 48px;
+    /* top: 36px; */
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.HeroSection .navBar .navBarWrapper ul{
+    display: flex;
+    width: 439px;
+    height: 20px;
+    top: 50px;
+    margin: auto;
+    justify-content: space-between;
+}
+.navBarWrapper .logo{
+    display: flex;
+    align-items: center;
+}
+.navBarWrapper .logo img{
+    width: 36.49px;
+    height: 36px;
+
+}
+.navBarWrapper .logo span{
+    width: 98.91px;
+    height: 32.52px;
+    font-size: 21.92px;
+    line-height: 32.88px;
+    font-weight: 700;
+}
+.navBarWrapper .navBarWriteUp li{
+    width: 49px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    color:rgb(117, 122, 133);
+}
+.navBarWrapper .navBarWriteUp .home{
+    color: rgba(6, 56, 82, 1);
+    font-weight: 700;
+    font-size: 14px;
+}
+.navBarWrapper button{
+    width: 134px;
+    height: 48px;
+    border-radius: 24px;
+    background-color:rgba(35, 116, 238, 1);
+    border: 0;
+}
+.navBarWrapper button span{
+    color: white;
+    width: 78px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+/* the main hero section  */
+.mainHero{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.mainHero #Dashboard{
+    position: absolute;
+    width: 900px;
+    height: 750px;
+    margin-left: 432px;
+}
+.mainHero .mainHeroWriteup{
+    width: 441px;
+    height: 398px;
+    margin-top: 100px;
+}
+.mainHeroWriteup .mainHeroWriteupHeader h1{
+    width: 373px;
+    height: 210px;
+    font-weight: 799.99;
+    font-size: 65px;
+    line-height: 65px;
+    color: rgba(6, 56, 82, 1);
+    /* font-family: 'poppins'; */
+}
+ .mainWriteupParagraph p{
+    margin-top: 20px;
+     width: 400px;
+     height: 78px;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 26.1px;
+     color:rgba(158, 163, 174, 1);
+}
+.mainWriteupButtons{
+    margin-top: 30px;
+    width: 347px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.mainWriteupButtons .theViewDemo{
+    width: 131px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainWriteupButtons button{
+    width: 180px;
+    height: 58px;
+    border-radius: 37px;
+    border: none;
+    background: rgba(35, 116, 238, 1);
+}
+.mainWriteupButtons button span{
+    width: 102px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.theViewDemo img{
+    width: 24px;
+    height: 24px;
+}
+.theViewDemo .viewDemo{
+    width: 91px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(6, 56, 82, 1);;
+}
+
+/* section 2  */
+
+.section2Wrapper{
+    margin: auto;
+    margin-top: 200px;
+    width: 1180px;
+    height: 413px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.section2Wrapper .section2Writeup{
+    width: 550px;
+    height: 388px;
+}
+.section2Wrapper .section2Writeup .section2WriteupHeader{
+    width: 485px;
+    height: 112px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color:rgba(6, 56, 82, 1);
+    font-family: 'Montserrat';
+}
+.section2WriteupParagraph{
+    margin-top: 20px;
+    width: 550px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.1px;
+    color:rgba(158, 163, 174, 1);
+}
+.section2WriteupVectorSection{
+    width: 529px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section2WriteupVectorSection .firstVector{
+    display: flex;
+    align-items: center;
+    width: 158px;
+    height: 68px;
+    justify-content: space-between;
+}
+.section2WriteupVectorSection .firstVector img{
+    width: 48px;
+    height: 48px;
+}
+.firstVector .firstVectorwrite .num1{
+    width: 86px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.firstVector .firstVectorwrite .school{
+    width: 78px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color:rgba(6, 56, 82, 1);
+}
+
+.section2WriteupVectorSection .secondVector{
+    width: 152px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2WriteupVectorSection .secondVector img{
+    width: 48px;
+    height: 48px;
+}
+.section2WriteupVectorSection .secondVector .num2{
+    width: 80px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.section2WriteupVectorSection .secondVector .user{
+    width: 55px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.section2WriteupVectorSection .thirdVector{
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 68px;
+    justify-content: space-between;
+    
+}
+.section2WriteupVectorSection .thirdVector img{
+    width: 48px;
+    height: 48px;
+}
+.section2WriteupVectorSection .thirdVector .num3 {
+    width: 59px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.section2WriteupVectorSection .thirdVector .cities {
+    width: 56px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.section2Writeup .section2WriteupButton button{
+    margin-top: 20px;
+    width: 180px;
+    height: 58px;
+    border: none;
+    border-radius: 37px;
+    background: rgba(35, 116, 238, 1);
+}
+ .section2WriteupButton button span{
+    width: 89px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);;
+ }
+
+.section2Wrapper .section2Box{
+    width: 570px;
+    height: 413px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(211, 213, 218, 1);
+    box-shadow: 0px 4px 36px 0px rgba(40, 44, 66, 0.08);
+}
+
+/* section 3  */
+.section3Wrapper{
+    /* background-color: blueviolet; */
+    width: 1119px;
+    height: 1392px;
+    margin: auto;
+    margin-top: 8%;
+}
+.section3Wrapper .section3WrapperHeader{
+    /* background-color: azure; */
+    width: 656px;
+    height: 125px;
+    margin: auto;
+    text-align: center;
+}
+.section3WrapperHeader .ourMain h2{
+    width: 370px;
+    height: 56px;
+    margin: auto;
+    /* font-family: 'Poppins'; */
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgba(6, 56, 82, 1);
+    letter-spacing: 0;
+}
+.section3WrapperHeader .ourMainPara{
+    width: 656px;
+    height: 52px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: rgba(108, 114, 127, 1);
+}
+.section3WrapperWriteup1{
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    width: 1039px;
+    height: 379px;
+}
+.section3WrapperWriteup1 img{
+    width: 438.58px;
+    height: 379px;
+}
+.section3WrapperWriteup1 .schedleWriteup{
+    margin-top: 50px;
+    width: 438px;
+    height: 324px;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedule{
+    width: 80px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteupHeader{
+        margin-top: 10px;
+    width: 340px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(6, 56, 82, 1);
+    letter-spacing: 0;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteupParagraph{
+    margin-top: 10px;
+    width: 438px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(108, 114, 127, 1);
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteuparrow{
+    width: 278px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.section3WrapperWriteup1{
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    width: 1039px;
+    height: 379px;
+}
+.section3WrapperWriteup1 img{
+    width: 438.58px;
+    height: 379px;
+}
+.section3WrapperWriteup1 .schedleWriteup{
+    margin-top: 50px;
+    width: 438px;
+    height: 324px;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedule{
+    width: 80px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteupHeader{
+        margin-top: 10px;
+    width: 340px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(6, 56, 82, 1);
+    letter-spacing: 0;
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteupParagraph{
+    margin-top: 10px;
+    width: 438px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(108, 114, 127, 1);
+}
+.section3WrapperWriteup1 .schedleWriteup .schedleWriteuparrow{
+    width: 278px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+/* writeup 2 */
+
+.section3WrapperWriteup2{
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    width: 1062px;
+    height: 301px;
+    margin-left: 57px;
+}
+.section3WrapperWriteup2 img{
+    width: 536.29px;
+    height: 298px;
+}
+.section3WrapperWriteup2 .AnalyticsWriteup{
+    margin-top: 50px;
+    width: 413px;
+    height: 300px;
+}
+.section3WrapperWriteup2 .AnalyticsWriteup .Analytics{
+    width: 86px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.section3WrapperWriteup2 .AnalyticsWriteup .AnalyticsWriteupHeader{
+        margin-top: 7px;
+    width: 360px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(6, 56, 82, 1);
+    letter-spacing: 0;
+}
+.section3WrapperWriteup2 .AnalyticsWriteup .AnalyticsWriteupParagraph{
+    margin-top: 7px;
+    width: 413px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(108, 114, 127, 1);
+}
+.section3WrapperWriteup2 .AnalyticsWriteup .AnalyticsWriteuparrow{
+    width: 277px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 3px;
+    font-weight: 500;
+    /* margin-top: 0px; */
+}
+
+
+/* section 4 */
+.section4Wrapper{
+    width: 1440px;
+    height: 666px;
+    display:flex ;
+    /* align-items: center; */
+    justify-content: column;
+    
+}
+.section4Wrapper .section4Writeup{
+    background-image: url(utility/wave\ background.png);
+    width: 1440px;
+    height: 492px;
+    position: relative;
+}
+.section4Writeup .section4Writeupmain{
+    width: 6566px;
+    height: 124px;
+    margin: auto;
+}
+.section4Writeupmain .thewords{
+    width: 1120px;
+    height: 304px;
+    position: absolute;
+    margin: auto;
+}
+.thewords .thewordsboxes{
+        position: relative;
+    width: 1039px;
+    height: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.thewordsboxes .box1{
+    width: 309px;
+    height: 304px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 36px 0px rgba(40, 44, 66, 0.08);
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+.thewordsboxes .box1 .theCircle{
+    width: 64px;
+    height: 64px;
+    background: rgba(211, 213, 218, 1);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
