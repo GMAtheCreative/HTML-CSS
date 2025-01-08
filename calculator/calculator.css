@@ -16,9 +16,13 @@ body{
     overflow: hidden;
     /* max-width: 500px; */
 }
+.MainDisplay{
+    width: 10px;
+
+}
+
 #display{
-    /* margin: auto; */
-    width: 100%;
+
     background-color: hsl(0,0%,20%);
     padding: 20px;
     text-align: left;
